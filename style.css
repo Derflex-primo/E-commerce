@@ -47,7 +47,6 @@ li {
 h1 {
   font-size: 56px;
   color: #7342d6;
-  margin-bottom: 24px;
   text-align: center;
 }
 
@@ -237,14 +236,15 @@ header {
 }
 
 .header__description {
-  margin-top: 60px;
+  margin-top: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: fade-up 650ms 600ms backwards;
 
 }
-
+ 
+ 
 @keyframes fade-up {
     0% {
       opacity: 0;
@@ -283,6 +283,10 @@ header {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.row1  {
+  margin-top: 100px;
 }
 
 .row__column {
